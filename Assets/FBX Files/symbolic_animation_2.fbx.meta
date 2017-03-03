@@ -1,0 +1,183 @@
+fileFormatVersion: 2
+guid: 51938d13ec4cc9f49bd5be2f51b5dfdd
+timeCreated: 1487713889
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bones
+    100002: Humerus
+    100004: joint1
+    100006: joint2
+    100008: joint3
+    100010: joint4
+    100012: joint5
+    100014: MC
+    100016: Muscle_1
+    100018: Muscle_2
+    100020: Muscles
+    100022: nurbsCircle1
+    100024: Radius
+    100026: Scapula
+    100028: //RootNode
+    100030: Thoracis_Limb
+    100032: Ulna
+    400000: Bones
+    400002: Humerus
+    400004: joint1
+    400006: joint2
+    400008: joint3
+    400010: joint4
+    400012: joint5
+    400014: MC
+    400016: Muscle_1
+    400018: Muscle_2
+    400020: Muscles
+    400022: nurbsCircle1
+    400024: Radius
+    400026: Scapula
+    400028: //RootNode
+    400030: Thoracis_Limb
+    400032: Ulna
+    4300000: Radius
+    4300002: Ulna
+    4300004: Scapula
+    4300006: Humerus
+    4300008: MC
+    4300010: Muscle_1
+    4300012: Muscle_2
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Humerus
+    13700002: MC
+    13700004: Muscle_1
+    13700006: Muscle_2
+    13700008: Radius
+    13700010: Scapula
+    13700012: Ulna
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint1/joint2/joint3/joint4/joint5
+        weight: 1
+      - path: nurbsCircle1
+        weight: 1
+      - path: Thoracis_Limb
+        weight: 1
+      - path: Thoracis_Limb/Bones
+        weight: 1
+      - path: Thoracis_Limb/Bones/Humerus
+        weight: 1
+      - path: Thoracis_Limb/Bones/MC
+        weight: 1
+      - path: Thoracis_Limb/Bones/Radius
+        weight: 1
+      - path: Thoracis_Limb/Bones/Scapula
+        weight: 1
+      - path: Thoracis_Limb/Bones/Ulna
+        weight: 1
+      - path: Thoracis_Limb/Muscles
+        weight: 1
+      - path: Thoracis_Limb/Muscles/Muscle_1
+        weight: 1
+      - path: Thoracis_Limb/Muscles/Muscle_2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
